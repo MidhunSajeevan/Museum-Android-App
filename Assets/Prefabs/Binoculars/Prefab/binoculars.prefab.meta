@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ff94fd4f75738a242ad52c64aef886f0
+timeCreated: 1514549207
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 108080
+  packageName: Vintage binoculars
+  packageVersion: 1.0
+  assetPath: Assets/Binoculars/Prefab/binoculars.prefab
+  uploadId: 221280

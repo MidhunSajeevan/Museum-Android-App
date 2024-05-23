@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783e6a2d4e3ce974f94d96abed6f380b, type: 3}
+  m_Name: Binoculars
+  m_EditorClassIdentifier: 
+  Name: Binoculars
+  Id: 4
+  Description: "Binoculars are optical devices used for viewing distant objects with
+    both eyes. They consist of two telescopes mounted side-by-side, allowing for
+    depth perception and a wider field of view. Binoculars are commonly used for
+    birdwatching, sports events, and astronomy, enhancing the clarity and detail
+    of distant scenes.\t"
+  UiImage: {fileID: 21300000, guid: 07e7bb1302317eb458b4f628865be16a, type: 3}
