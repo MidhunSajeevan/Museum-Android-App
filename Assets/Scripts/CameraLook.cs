@@ -7,12 +7,17 @@ public class CameraLook : MonoBehaviour
     private float YMove;
     private float XRoatation;
     internal Vector2 LockAxis;
-    [SerializeField]
+
     private Transform PlayerBody;
     private float Sensitivity = 40f;
-  
 
-   
+
+    private void Start()
+    {
+       
+        PlayerBody = transform.parent;
+    }
+
     void Update()
     {
         XMove = LockAxis.x * Sensitivity * Time.deltaTime;
