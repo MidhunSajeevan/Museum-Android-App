@@ -1,0 +1,74 @@
+ManifestFileVersion: 0
+UnityVersion: 2023.2.15f1
+CRC: 3680162970
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1fd7b494dd8aecf93c4b17d6efc05eb6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3a485fc16e5ad6ac07fa58a5d7504479
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ed23657b19bc6cd21c63d053a622eeab
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 783e6a2d4e3ce974f94d96abed6f380b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bb977b126bc1b4f15813dcf9da9bb600, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0895e5053a1c60648988d5924dbf82ae, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 850595691
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Unity.ProBuilder
+  ClassName: UnityEngine.ProBuilder.AutoUnwrapSettings
+- AssemblyName: Unity.ProBuilder
+  ClassName: UnityEngine.ProBuilder.Face
+- AssemblyName: Unity.ProBuilder
+  ClassName: UnityEngine.ProBuilder.Shapes.Cube
+- AssemblyName: Unity.ProBuilder
+  ClassName: UnityEngine.ProBuilder.Shapes.Cylinder
+- AssemblyName: Unity.ProBuilder
+  ClassName: UnityEngine.ProBuilder.Shapes.Door
+- AssemblyName: Unity.ProBuilder
+  ClassName: UnityEngine.ProBuilder.SharedVertex
+- AssemblyName: Unity.ProBuilder
+  ClassName: UnityEngine.ProBuilder.UnwrapParameters
+Assets:
+- Assets/AssetsBundles/EnvironMent.prefab
+- Assets/LightData/IndoorLightSettings.lighting
+Dependencies: []
