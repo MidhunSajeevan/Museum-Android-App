@@ -2,19 +2,22 @@ using UnityEngine;
 
 public class TouchController : MonoBehaviour
 {
-    
-    private FixedTouchField FixedTouchField;
-    private CameraLook CameraLook;
+   
+    private FixedTouchField fixedTouchField;
+    private CameraLook cameraLook;
+
+   
     void Start()
     {
-        FixedTouchField = FindAnyObjectByType<FixedTouchField>();
-        CameraLook = FindAnyObjectByType<CameraLook>();
-        
+        // Initialize the fixed touch field and camera look references
+        fixedTouchField = FindAnyObjectByType<FixedTouchField>();
+        cameraLook = FindAnyObjectByType<CameraLook>();
     }
 
-    // Update is called once per frame
+
     void Update()
     {
-        CameraLook.LockAxis = FixedTouchField.TouchDistance;
+       
+        cameraLook.LockAxis = fixedTouchField.TouchDistance;
     }
 }

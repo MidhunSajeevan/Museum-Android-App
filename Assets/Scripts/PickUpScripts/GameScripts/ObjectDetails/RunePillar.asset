@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783e6a2d4e3ce974f94d96abed6f380b, type: 3}
+  m_Name: RunePillar
+  m_EditorClassIdentifier: 
+  Name: Rune Pillar
+  Id: 1
+  Description: The Stone Age is the prehistoric period when early humans used stone
+    tools and weapons. It spans from roughly 2.5 million years ago to around 3,000
+    BCE. Key developments include hunting, gathering, cave art, and the discovery
+    of fire, laying the foundation for human civilization.
+  UiImage: {fileID: 21300000, guid: 85a28b4614e3d6546a59b5f3c9f5cc22, type: 3}

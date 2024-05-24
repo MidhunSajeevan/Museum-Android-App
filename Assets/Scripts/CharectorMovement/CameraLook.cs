@@ -9,12 +9,13 @@ public class CameraLook : MonoBehaviour
     internal Vector2 LockAxis;
 
     private Transform PlayerBody;
-    private float Sensitivity = 40f;
+    [Range(10f, 40f)]
+    public float Sensitivity = 40f;
 
 
     private void Start()
     {
-       
+       //acces the player body for rotation
         PlayerBody = transform.parent;
     }
 
@@ -25,7 +26,9 @@ public class CameraLook : MonoBehaviour
         XRoatation -= YMove;
         XRoatation = Mathf.Clamp(XRoatation, -90f, 90f);
 
+        //rotate the camera according to the input
         transform.localRotation = Quaternion.Euler(XRoatation,0,0);
+        //rotate the player body 
         PlayerBody.Rotate(Vector3.up * XMove);
     }
 }
